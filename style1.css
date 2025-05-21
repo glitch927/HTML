@@ -41,29 +41,29 @@
     border: 1px solid black;
 }
 .a3 {
-    width: 100%;
+    width: 100.5%;
     height: 100px;
     display: flex;
 }
 .b1 {
-    width: 50%;
+    width: 60%;
     height: 100%;
     border: 1px solid black;
 }
 .b2 {
-    width:50%;
+    width: 40%;
     height: 100%;
     border: 1px solid black;
 }
 .a4 {
     position: relative;
-    width: 120%;
+    width: 120.5%;
     height: 245px;
     border: 1px solid black;
     right: 98px;
 }
 .footer {
-    width: 100%;
+    width: 100.1%;
     height: 100px;
     border: 1px solid black;
 }
@@ -102,14 +102,14 @@ h6 {
 p1 {
     position: relative;
     top: 25px;
-    left: 75px;
+    left: 110px;
     font-size: xx-large;
     font-weight: bold;
 }
 p2 {
     position: relative;
     top: 25px;
-    left: 75px;
+    left: 60px;
     font-size: xx-large;
     font-weight: bold;
 }
