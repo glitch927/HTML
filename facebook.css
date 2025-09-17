@@ -1,0 +1,246 @@
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+#wrap {
+    width: 100%;
+    height: 100vh;
+}
+header {
+    padding: 72px 0px 112px;
+    width: 100%;
+    height: 535px;
+    background-color: #F2F4F7;
+}
+.box {
+    padding: 30px 0px;
+    margin: 30px 250px 0px;
+    display: flex;
+    justify-content: center;
+}
+.baksu {
+    width: 600px;
+}
+.image {
+    margin: 38px 0px 0px 85px;
+    width: 330px;
+    height: 120px;
+}
+.fy {
+    position: relative;
+    bottom: 20px;
+    margin-left: 115px;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 500px;
+}
+.boxbox {
+    margin-right: 228px;
+    width: 400px;
+}
+#login-box {
+    width: 397px;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow : 5px 5px 10px #dadcdf;
+    background-color: #fff;
+}
+.name {
+    font-size: 17px;
+    margin: 15px 16.5px 12px 16.5px;
+    width: 346px;
+    height: 50px;
+    padding-left: 16px;
+    border-style: solid ;
+    border-width: 1px;
+    border-color: #dfe4dd;
+    border-radius: 6px;
+    color: #000000;
+    caret-color: #278cff;
+}
+.name:focus {
+    box-shadow : 0.5px 0.5px 2px 0.5px #278cff;
+    border-color: #278cff;
+    outline: none;
+}
+.name:focus::placeholder{
+    color: #c5c5c5;
+}
+.password {
+    font-size: 17px;
+    margin: 0px 16.5px;
+    width: 346px;
+    height: 50px;
+    padding-left: 16px;
+    border-style: solid ;
+    border-width: 1px;
+    border-color: #dde0e4;
+    border-radius: 6px;
+    color: #000000;
+    caret-color: #278cff;
+}
+.password:focus {   
+    box-shadow : 0.5px 0.5px 2px 0.5px #278cff;
+    border-color: #278cff;
+    outline: none;
+}
+.password:focus::placeholder{
+    color: #c5c5c5;
+}
+#box2 {
+    width: 100%;
+    margin-top: 18px;
+    display: flex;
+    justify-content: center;
+}
+.login-button {
+    border: none;
+    border-radius: 6px;
+    width: 362px;
+    height: 50px;
+    background-color: #0866FF;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.login-button:hover {
+    background-color: #1877F2;
+    transition: 0.1s;
+}
+#box3 {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.forget {
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #0866FF;
+}
+.forget:hover {
+    text-decoration: underline;
+}
+.line {
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 360px;
+    height: 1px;
+    background-color: #d8d8d8;
+}
+.box4 {
+    width: 100%;
+    height: 95px;
+    display: flex;
+    justify-content: center;
+}
+.new-account {
+    margin-top: 20px;
+    border-radius: 6px;
+    width: 130px;
+    height: 50px;
+    background-color: #29c729;
+    color: #fff;
+    text-align: center;
+    line-height : 50px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+}
+.new-account:hover {
+    background-color: #0fb300;
+}
+.page-made1 {
+    text-align: center;
+    font-size: 14px;
+    width: 397px;
+    margin: 25px 0px;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+}
+.page-made2 {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.page-made2:hover {
+    text-decoration: underline;
+}
+footer {
+    padding: 26px 0px 0px 5px;
+    width: 100%;
+    height: 100px;
+    background-color: #ffffff;
+}
+.another-box {
+    width: 1050px;
+    height: 100%;
+}
+.languge-text {
+    margin-left: 5px;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    color: gray;
+    text-decoration: none;
+    font-size: 12px;
+}
+.languge-text:hover {
+    text-decoration: underline;
+}
+.add-languge {
+    position: relative;
+    top: 2.5px;
+    left: 4px;
+    width: 30px;
+    height: 20px;
+    border-style: none;
+    border: solid 1px;
+    border-radius: 2px;
+    border-color: #c5c5c5;
+    background-color: #f3f3f3;
+    font-size: 15px;
+    font-weight: bold;
+    cursor:pointer;
+}
+.under-line {
+    margin-left: 5px;
+    width: 975px;
+    height: 10px;
+    border-bottom: solid 1px #a3a3a3;
+}
+ul {
+    height: 80px;
+}
+ul > li {
+    position: relative;
+    right: 50px;
+    display: block;
+}
+.up {
+    position: relative;
+    bottom: 5px;
+}
+.up2 {
+    position: relative;
+    bottom: 10px;
+}
+.link-button {
+    margin-left: 15px;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    color: gray;
+    text-decoration: none;
+    font-size: 12px;
+}
+.link-button:hover {
+    text-decoration: underline;
+}
+.meta {
+    margin-left: 5px;
+    font-size: 11px;
+    color: gray;
+}
